@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HridoyTV 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Splash Screen Animation with Your Real Logo -->
+    <div id="splashScreen">
+        <div class="splash-content">
+            <div class="logo-box">
+                <img src="https://i.ibb.co.com/HTKB1b63/logo.jpg" alt="Hridoytv Logo" onerror="this.src='https://raw.githubusercontent.com/princehridoyk75-bit/Hridoytv2.0/main/logo.jpg';">
+            </div>
+            <h2>Hridoytv <span class="version">2.0</span></h2>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <div class="app-container">
+        <!-- Header Banner -->
+        <div class="header-banner">
+            <div class="header-logo-box">
+                <img src="https://i.ibb.co.com/HTKB1b63/logo.jpg" alt="Hridoytv Logo" onerror="this.src='https://raw.githubusercontent.com/princehridoyk75-bit/Hridoytv2.0/main/logo.jpg';">
+            </div>
+            <h2>Hridoytv <span class="version">2.0</span></h2>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="filter-container">
+            <button class="filter-btn active" data-category="pinned">Pinned</button>
+            <button class="filter-btn" data-category="all">All</button>
+            <button class="filter-btn" data-category="sports">Sports</button>
+            <button class="filter-btn" data-category="news">News</button>
+            <button class="filter-btn" data-category="entertainment">Entertainment</button>
+        </div>
+
+        <!-- Channel Grid -->
+        <div id="channelGrid" class="channel-grid">
+            <!-- Channels will be loaded dynamically -->
+        </div>
+
+        <!-- Bottom Navigation -->
+        <div class="bottom-nav">
+            <a href="#" class="nav-item active">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-text">Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">📱</span>
+                <span class="nav-text">App</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">🌐</span>
+                <span class="nav-text">Portal</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">🔍</span>
+                <span class="nav-text">Search</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">☰</span>
+                <span class="nav-text">Menu</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
